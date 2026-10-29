@@ -16,18 +16,18 @@ if [ ! -f /etc/arch-release ]; then
 fi
 
 echo -e "${BLUE}================================================${NC}"
-echo -e "${BLUE}   Installing lunardagger420 Quickshell Rice    ${NC}"
+echo -e "${BLUE}    Installing lunardagger420 Pulsar Rice       ${NC}"
 echo -e "${BLUE}================================================${NC}\n"
 
 CONFIG_DIR="$HOME/.config"
 LOCAL_SHARE_FONTS="$HOME/.local/share/fonts"
 BACKUP_DIR="$HOME/.config/cfg_backups/backup_$(date +%Y%m%d_%H%M%S)"
-REPO_URL="https://github.com/lunardagger420/quickshell-hypr-rice.git"
+REPO_URL="https://github.com/lunardagger420/pulsar.git"
 
 # ==========================================
 # 0. Environment Detection & Fetch Repo
 # ==========================================
-if [ -d "./hypr" ] && [ -d "./quickshell" ] && [ -t 0 ]; then
+if [ -d "./hypr" ] && [ -d "./quickshell" ] && [ -d "./colorschemes" ] && [ -t 0 ]; then
     DOTFILES_DIR="$(pwd)"
     echo -e "${GREEN}✓ Local install detected.${NC}"
 else
@@ -191,7 +191,7 @@ echo -e "${GREEN}✓ Theme, dark preference, icons, and font applied across GTK 
 echo -e "\n${YELLOW}[6/6] Backing up and deploying configurations...${NC}"
 mkdir -p "$BACKUP_DIR"
 
-for target in hypr quickshell; do
+for target in hypr quickshell colorschemes; do
     if [ -e "$CONFIG_DIR/$target" ]; then
         echo -e "Moving existing $CONFIG_DIR/$target -> $BACKUP_DIR/$target"
         mv "$CONFIG_DIR/$target" "$BACKUP_DIR/"
@@ -201,6 +201,14 @@ done
 mkdir -p "$CONFIG_DIR"
 cp -r "$DOTFILES_DIR/hypr" "$CONFIG_DIR/"
 cp -r "$DOTFILES_DIR/quickshell" "$CONFIG_DIR/"
+
+if [ -d "$DOTFILES_DIR/colorschemes" ]; then
+    cp -r "$DOTFILES_DIR/colorschemes" "$CONFIG_DIR/"
+    echo -e "${GREEN}✓ Wallpapers & colorschemes deployed to $CONFIG_DIR/colorschemes${NC}"
+else
+    echo -e "${YELLOW}Warning: colorschemes directory not found in repository.${NC}"
+fi
+
 echo -e "${GREEN}✓ Config files deployed to ~/.config${NC}"
 
 # Clone Qylock and install 'Pixel Dusk City' SDDM theme
@@ -226,6 +234,6 @@ fi
 rm -rf "$QYLOCK_TEMP"
 
 echo -e "\n${GREEN}================================================${NC}"
-echo -e "${GREEN}       Installation Complete Successfully! 🎉   ${NC}"
+echo -e "${GREEN}        Installation Complete Successfully! 🎉   ${NC}"
 echo -e "${GREEN}================================================${NC}"
 echo -e "You can now start Hyprland or restart SDDM to enjoy your desktop!"
