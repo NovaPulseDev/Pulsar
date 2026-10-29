@@ -35,12 +35,12 @@ sudo pacman -S --needed git
 
 Then clone the repo.
 ```git
-git clone https://github.com/lunardagger420/quickshell-hypr-rice.git --depth=1
+git clone https://github.com/lunardagger420/pulsar.git --depth=1
 ```
 
 Finally, cd into the folder and run the installer.
 ```cd
-cd ~/quickshell-hypr-rice && ./install.sh
+cd ~/pulsar && ./install.sh
 ```
 ---
 
