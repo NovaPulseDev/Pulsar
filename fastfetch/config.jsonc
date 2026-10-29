@@ -1,0 +1,50 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+      "source": "/home/lunar/.config/fastfetch/arch.txt",
+      "type": "auto",
+      "width": 10,
+      "height": 6,
+      "padding": {
+        "top": 1,
+        "right": 6,
+        "bottom": 2
+      }
+    },
+    "display": {
+        "separator": " ›  "
+    },
+    "modules": [
+      "break",
+      "break",
+      "break",
+      "break",
+        {
+            "type": "os",
+            "key": "OS  ",
+            "keyColor": "35",
+        },
+        {
+            "type": "kernel",
+            "key": "KER ",
+            "keyColor": "35",
+        },
+        {
+            "type": "shell",
+            "key": "SH  ",
+            "keyColor": "35",
+        },
+        {
+            "type": "terminal",
+            "key": "TER ",
+            "keyColor": "35",
+        },
+        {
+            "type": "wm",
+            "key": "WM  ",
+            "keyColor": "35",
+        },
+        "break",
+        "break",
+    ]
+}

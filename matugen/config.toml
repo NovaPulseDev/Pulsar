@@ -1,0 +1,47 @@
+[config]
+source_color_index = 0
+reload_apps = true
+
+[templates.hyprlock]
+input_path = '~/.config/matugen/templates/colors.conf'
+output_path = '~/.config/hypr/colors/colors.conf'
+
+[templates.hyprland]
+input_path = '~/.config/matugen/templates/hyprland-colors.lua'
+output_path = '~/.config/hypr/colors/matugen.lua'
+
+[templates.kitty]
+input_path = '~/.config/matugen/templates/kitty-theme.conf'
+output_path = '~/.config/kitty/colors/kitty-theme.conf'
+post_hook = 'pkill -USR1 kitty'
+
+[templates.neovim]
+input_path = "~/.config/matugen/templates/nvim-colors.json"
+output_path = "~/.cache/matugen/nvim-colors.json"
+post_hook = "pkill -SIGUSR1 nvim"
+
+[templates.quickshell]
+input_path = '~/.config/matugen/templates/quickshell-colors.qml'
+output_path = '~/.config/quickshell/Colors.qml'
+
+[templates.gtk3]
+input_path = '~/.config/matugen/templates/gtk-colors.css'
+output_path = '~/.config/gtk-3.0/gtk.css'
+post_hook = 'bash /home/lunar/.config/matugen/post-hook-scripts/gtk3-reload.sh'
+
+[templates.gtk4]
+input_path = '~/.config/matugen/templates/gtk-colors.css'
+output_path = '~/.config/gtk-4.0/gtk.css'
+post_hook = 'bash /home/lunar/.config/matugen/post-hook-scripts/gtk-themes-reload.sh'
+
+[templates.qs-sddm]
+input_path = '~/.config/matugen/templates/quickshell-colors.qml'
+output_path = '~/.config/sddm/Colors.qml'
+
+[templates.vscode-raw]
+input_path = './templates/vscode-colors'
+output_path = '~/.cache/matugen/vscode-colors'
+
+[templates.vscode-json]
+input_path = './templates/vscode-colors.json'
+output_path = '~/.cache/matugen/vscode-colors.json'
