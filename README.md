@@ -3,7 +3,12 @@
   <img src="assets/logo.png" alt="Pulsar Meteor Logo" width="180">
 
 ### **PULSAR**
-### *"Where dynamic fluidity meets the void."*
+### *"Where fluidity meets the void."*
+
+[![Arch Linux](https://img.shields.io/badge/Arch%20Linux-Framework-blue?logo=arch-linux)](https://archlinux.org)
+[![Hyprland](https://img.shields.io/badge/WM-Hyprland-blueviolet?logo=wayland)](https://hyprland.org)
+[![Quickshell](https://img.shields.io/badge/UI-Quickshell-ff69b4)](https://github.com/outfoxxed/quickshell)
+
 ---
 <div align="left">
 
