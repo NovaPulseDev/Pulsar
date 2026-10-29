@@ -42,10 +42,25 @@ Finally, cd into the folder and run the installer.
 ```cd
 cd ~/pulsar && ./install.sh
 ```
+
+---
+
+### KEYBINDS
+
+| Keybind | Action |
+| :--- | :--- |
+| <kbd>Super</kbd> + <kbd>Space</kbd>, <kbd>0</kbd> | App Launcher |
+| <kbd>Super</kbd> + <kbd>C</kbd>, <kbd>0</kbd> | Control Center |
+| <kbd>Super</kbd> + <kbd>Y</kbd>, <kbd>0</kbd> | Theme Picker |
+| <kbd>Super</kbd> + <kbd>H</kbd>, <kbd>0</kbd> | Wallpaper Picker |
+| <kbd>Super</kbd> + <kbd>L</kbd>, <kbd>0</kbd> | Lock Screen |
+
+All the other keybinds can be configured in ~/.config/hypr/modules/binds.lua, along with the ipc commands provided.
+
 ---
 
 ### WALLPAPERS
-  The wallpaper folders (please put the folders in their corresponding themes) HAS to be located in ~/.config/colorschemes.
+  The wallpaper folders (please put the folders in their corresponding themes) HAS to be located in ~/.config/colorschemes. I have given you some default wallpapers in ~/.config/colorschemes.
 
 ---
 
