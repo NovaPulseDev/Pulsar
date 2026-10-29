@@ -16,50 +16,52 @@
 
 Pulsar is a feature-rich, dynamic Hyprland and Quickshell desktop environment powered by Matugen material color extraction and custom shell widgets. Designed with a sleek, space-inspired aesthetic where fluidity meets the void, Pulsar transforms your workflow with real-time dynamic color schemes, interactive dynamic island notifications, and intuitive desktop controls built specifically for Arch Linux.
 
-**🌟 Key Highlights**
+**🌟 Features**
 
-- 🎨 Dynamic Material Color Schemes: Deep Matugen and Wallust integration automatically creates GTK, Qt, shell and terminal palettes directly from your active wallpaper.
+- **🎨 Dynamic Material Color Schemes:** Deep Matugen and Wallust integration automatically creates GTK, Qt, shell and terminal palettes directly from your active wallpaper.
 
-- 🏝️ Dynamic Island and Shell Widgets: Customized Quickshell panels offer fluid desktop status widgets, app launcher integration, power menus and media controls.
+- **🏝️ Dynamic Island and Shell Widgets:** Customized Quickshell panels offer fluid desktop status widgets, app launcher integration, power menus and media controls.
 
-- ⚡ Seamless Keybind Architecture: Built-in IPC command routing and pre-configured Hyprland shortcuts provide smooth workspace management and instant shell responsiveness.
+- **⚡ Seamless Keybind Architecture:** Built-in IPC command routing and pre-configured Hyprland shortcuts provide smooth workspace management and instant shell responsiveness.
 
-- 📦 Complete Automated Deployment: A robust zero-headache install.sh takes care of all official and AUR dependencies SDDM themes, GTK/Qt font configurations and colorschemes from the start.
+- **📦 Complete Automated Deployment:** A robust zero-headache install.sh takes care of all official and AUR dependencies SDDM themes, GTK/Qt font configurations and colorschemes from the start.
 
 ---
 
 ### **INSTALLATION**
 
-Note: The two installation methods **ONLY WORK ON ARCH LINUX AND ONLY ON HYPRLAND.** This is a choice.
+> [!NOTE]  
+> The installation methods are **exclusively designed for Arch Linux running Hyprland**.
 
-Now there are two ways that you can do this, the online installer way or the git clone / local install way.
+You can install Pulsar using either the **One-Line Online Installer** or via a **Local Git Clone**.
 
-### *Online install*
+---
 
-For the online install, just copy / type this into the shell.
+### Option 1: Online Installer (Recommended)
+
+Run the automated one-line installer directly in your terminal:
+
 ```bash
 curl -fsSL https://is.gd/pulsarqs | bash
 ```
-### *Local install*
-
-For the local install, you will need git.
-
-First, install git.
-```pacman
-sudo pacman -S --needed git
-```
-
-Then clone the repo.
-```git
-git clone https://github.com/lunardagger420/pulsar.git --depth=1
-```
-
-Finally, cd into the folder and run the installer.
-```cd
-cd ~/pulsar && ./install.sh
-```
-
 ---
+
+### Option 2: Local Installation
+
+If you prefer to review the source code before running or want to install locally, follow these steps:
+
+1. Install Git:
+```bash
+sudo pacman -S git --needed
+```
+2. Clone the repo
+```bash
+git clone --depth=1 https://github.com/lunardagger420/pulsar.git
+```
+3. Navigate to the directory and run the installer:
+```bash
+cd pulsar && ./install.sh
+```
 
 ### KEYBINDS
 
