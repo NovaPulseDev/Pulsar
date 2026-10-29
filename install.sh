@@ -81,6 +81,7 @@ PACMAN_DEPS=(
     hypridle
     hyprlock
     brightnessctl
+    networkmanager
     sddm
     qt5-base
     qt6-base
@@ -107,6 +108,11 @@ AUR_DEPS=(
     papirus-folders
 )
 $AUR_HELPER -S --needed "${AUR_DEPS[@]}" --noconfirm
+
+# Enable NetworkManager for nmcli widgets
+echo -e "\n${YELLOW}Enabling NetworkManager service...${NC}"
+sudo systemctl enable --now NetworkManager.service || true
+echo -e "${GREEN}✓ NetworkManager service configured.${NC}"
 
 # Apply grey Papirus folder icons
 echo -e "\nChanging Papirus folder colors to grey..."
