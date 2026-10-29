@@ -25,7 +25,7 @@ Pulsar is a feature-rich, dynamic Hyprland and Quickshell desktop environment po
 - **📦 Complete Automated Deployment:** A robust zero-headache install.sh takes care of all official and AUR dependencies SDDM themes, GTK/Qt font configurations and colorschemes from the start.
 
 > [DISCLOSURE]  
-> The Quickshell configuration **WAS made with AI.** I am not a good Quickshell maker and **I am not willing to learn QML.** Everything else **WAS made by me.** I felt like I had to throw this out there, just for others to know.
+> The Quickshell configuration **WAS MADE WITH AI.** I am not a good Quickshell maker and **I am not willing to learn QML.** Everything else **WAS MADE BY ME.** I felt like I had to throw this out there, just for others to know.
 
 ---
 
