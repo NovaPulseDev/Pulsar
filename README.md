@@ -49,11 +49,11 @@ cd ~/pulsar && ./install.sh
 
 | Keybind | Action |
 | :--- | :--- |
-| <kbd>Super</kbd> + <kbd>Space</kbd>, <kbd>0</kbd> | App Launcher |
-| <kbd>Super</kbd> + <kbd>C</kbd>, <kbd>0</kbd> | Control Center |
-| <kbd>Super</kbd> + <kbd>Y</kbd>, <kbd>0</kbd> | Theme Picker |
-| <kbd>Super</kbd> + <kbd>H</kbd>, <kbd>0</kbd> | Wallpaper Picker |
-| <kbd>Super</kbd> + <kbd>L</kbd>, <kbd>0</kbd> | Lock Screen |
+| <kbd>Super</kbd> + <kbd>Space</kbd> | App Launcher |
+| <kbd>Super</kbd> + <kbd>C</kbd> | Control Center |
+| <kbd>Super</kbd> + <kbd>Y</kbd> | Theme Picker |
+| <kbd>Super</kbd> + <kbd>H</kbd> | Wallpaper Picker |
+| <kbd>Super</kbd> + <kbd>L</kbd> | Lock Screen |
 
 All the other keybinds can be configured in ~/.config/hypr/modules/binds.lua, along with the ipc commands provided.
 
