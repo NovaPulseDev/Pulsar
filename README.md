@@ -40,7 +40,7 @@ You can install Pulsar using either the **One-Line Online Installer** or via a *
 Run the automated one-line installer directly in your terminal:
 
 ```bash
-curl -fsSL https://is.gd/pulsarqs | bash
+curl -fsSL https://is.gd/getpulsar | bash
 ```
 ---
 
