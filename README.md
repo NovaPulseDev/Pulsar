@@ -12,8 +12,6 @@
 ---
 <div align="left">
 
-### **OVERVIEW**
-
 Pulsar is a feature-rich, dynamic Hyprland and Quickshell desktop environment powered by Matugen material color extraction and custom shell widgets. Designed with a sleek, space-inspired aesthetic where fluidity meets the void, Pulsar transforms your workflow with real-time dynamic color schemes, interactive dynamic island notifications, and intuitive desktop controls built specifically for Arch Linux.
 
 **🌟 Features**
@@ -28,7 +26,7 @@ Pulsar is a feature-rich, dynamic Hyprland and Quickshell desktop environment po
 
 ---
 
-### **INSTALLATION**
+### **📥 Installation**
 
 > [NOTE]  
 > The installation methods are **exclusively designed for Arch Linux running Hyprland**.
@@ -64,17 +62,19 @@ cd pulsar && ./install.sh
 ```
 ---
 
-### KEYBINDS
+### ⌨️ Keybindings
+
+> *Master the void with lightning-fast navigation.*
 
 | Keybind | Action |
 | :--- | :--- |
 | <kbd>Super</kbd> + <kbd>Space</kbd> | App Launcher |
-| <kbd>Super</kbd> + <kbd>C</kbd>  | Control Center |
+| <kbd>Super</kbd> + <kbd>C</kbd> | Control Center |
 | <kbd>Super</kbd> + <kbd>Y</kbd> | Theme Picker |
 | <kbd>Super</kbd> + <kbd>H</kbd> | Wallpaper Picker |
 | <kbd>Super</kbd> + <kbd>L</kbd> | Lock Screen |
 
-All the other keybinds can be configured in ~/.config/hypr/modules/binds.lua, along with the ipc commands provided.
+> **Note:** All additional keybindings and custom IPC commands can be configured directly in `~/.config/hypr/modules/binds.lua`.
 
 ---
 
@@ -108,8 +108,13 @@ Your command hub is built directly into the user interface. You can start the Co
 
 ---
 
-### WALLPAPERS
-  The wallpaper folders (please put the folders in their corresponding themes) HAS to be located in ~/.config/colorschemes. I have given you some default wallpapers in ~/.config/colorschemes.
+### 🎨 Wallpapers & Color Schemes
+
+Pulsar relies on  theme folders to power its dynamic color engine, Matugen. 
+
+> ⚠️ **Important Directory Rule:** All wallpaper theme folders **must** be placed inside `~/.config/colorschemes/` mapped to their corresponding theme names. 
+> 
+> I’ve included a selection of default wallpapers, filtered to their themes, right out of the box in `~/.config/colorschemes` to get you started immediately.*
 
 ---
 
