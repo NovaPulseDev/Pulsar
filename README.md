@@ -94,7 +94,7 @@ Your command hub is built directly into the user interface. You can start the Co
 
 *Right-click* to go to the audio hub (control audio outputs, inputs and volume levels, for each application).
 
-- **☀️. Brightness:**
+- **☀️ Brightness:**
 
 *Left-click and drag* horizontally to adjust the screen brightness.
 
