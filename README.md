@@ -78,7 +78,7 @@ cd pulsar && ./install.sh
 
 ---
 
-### 🏝️ Control Center and Dynamic Island
+### 🏝️ Control Center
 
 Your command hub is built directly into the user interface. You can start the Control Center quickly using <kbd>Super</kbd> + <kbd>C</kbd>. By simply clicking the **Dynamic Island**.
 
@@ -118,11 +118,12 @@ Pulsar relies on  theme folders to power its dynamic color engine, Matugen.
 
 ---
 
-### CREDITS
-I want to thank these people as I could not have done this rice without them.
+### 🙏 Credits
 
-- [@saneaspect](https://youtube.com/@saneaspect) & [@enhaoswen](https://github.com/enhaoswen) for inspiration for the dynamic island.
-- [@end-4's dots](https://github.com/end-4/dots-hyprland) for providing such a great starship prompt and popularizing the Material You design on Hyprland.
-- [@LazyVim](https://github.com/LazyVim/LazyVim) for providing a minimal starter for NeoVim.
-- [@InioX](https://github.com/InioX) for giving us Matugen.
-- [@LierB](https://github.com/LierB/fastfetch) for creating the fastfetch configuration.
+Huge thanks to these amazing creators and projects:
+
+- **[@saneaspect](https://youtube.com/@saneaspect)** & **[@enhaoswen](https://github.com/enhaoswen)** — Dynamic island inspiration
+- **[@end-4](https://github.com/end-4/dots-hyprland)** — Material You design & starship prompt
+- **[@LazyVim](https://github.com/LazyVim/LazyVim)** — Minimal Neovim setup
+- **[@InioX](https://github.com/InioX)** — Matugen color engine
+- **[@LierB](https://github.com/LierB/fastfetch)** — Fastfetch config
