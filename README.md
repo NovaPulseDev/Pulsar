@@ -22,7 +22,7 @@ Now there are two ways that you can do this, the online installer way or the git
 
 For the online install, just copy / type this into the shell.
 ```bash
-curl -fsSL https://is.gd/pulsarrice | bash
+curl -fsSL https://is.gd/pulsarqs | bash
 ```
 ### *Local install*
 
