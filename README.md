@@ -62,6 +62,7 @@ git clone --depth=1 https://github.com/lunardagger420/pulsar.git
 ```bash
 cd pulsar && ./install.sh
 ```
+---
 
 ### KEYBINDS
 
@@ -77,14 +78,33 @@ All the other keybinds can be configured in ~/.config/hypr/modules/binds.lua, al
 
 ---
 
-### CONTROL CENTER
-The control center holds the wifi, sound, display and notification modules (bluetooth coming soon).
-For the control center, you are also able to click the island to access it, along with <kbd>Super + C</kbd> .
+### 🏝️ Control Center and Dynamic Island
 
-- To access the wifi module, right click the wifi box. Left clicking will toggle it. This will show the connected wifi and the available wifis, including the data strength too.
-- To access the sound module, right click the sound box. Left clicking and dragging it left to right will adjust volume. This will show outputs, inputs and app volume.
-- To access the display module, right click the display box. Left clicking and dragging it left to right will adjust brightness. This will show displays and their brightness.
-- To access the notification module, left click the notification box. This will show notifications.
+Your command hub is built directly into the user interface. You can start the Control Center quickly using <kbd>Super</kbd> + <kbd>C</kbd>. By simply clicking the **Dynamic Island**.
+
+- **📶 Wi-Fi Module:**
+
+*Left-click* to turn Wi-Fi on or off.
+
+*Right-click* to open the network manager that shows the current connection status, available SSIDs and signal strength.
+
+- **🔊 Sound Module:**
+
+*Left-click. Drag* horizontally to adjust the master volume smoothly.
+
+*Right-click* to go to the audio hub (control audio outputs, inputs and volume levels, for each application).
+
+- **☀️. Brightness:**
+
+*Left-click and drag* horizontally to adjust the screen brightness.
+
+*Right-click* to see display parameters.
+
+- **🔔 Notifications:**
+
+*Left-click* the notification container to quickly look at your alert history.
+
+*(Bluetooth module coming soon!)*
 
 ---
 
