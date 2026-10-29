@@ -30,7 +30,7 @@ Pulsar is a feature-rich, dynamic Hyprland and Quickshell desktop environment po
 
 ### **INSTALLATION**
 
-> [!NOTE]  
+> [NOTE]  
 > The installation methods are **exclusively designed for Arch Linux running Hyprland**.
 
 You can install Pulsar using either the **One-Line Online Installer** or via a **Local Git Clone**.
