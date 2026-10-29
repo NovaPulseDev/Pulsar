@@ -65,7 +65,7 @@ For the control center, you are also able to click the island to access it, alon
 
 - To access the wifi module, right click the wifi box. Left clicking will toggle it. This will show the connected wifi and the available wifis, including the data strength too.
 - To access the sound module, right click the sound box. Left clicking and dragging it left to right will adjust volume. This will show outputs, inputs and app volume.
-- To access the display module, right click the display box. Left clicking and dragging it left to right will adjust brightness. This will show displays and their brightness
+- To access the display module, right click the display box. Left clicking and dragging it left to right will adjust brightness. This will show displays and their brightness.
 - To access the notification module, left click the notification box. This will show notifications.
 
 ---
