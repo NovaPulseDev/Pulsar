@@ -82,6 +82,7 @@ PACMAN_DEPS=(
     hyprlock
     brightnessctl
     networkmanager
+    ttf-jetbrains-mono-nerd
     sddm
     qt5-base
     qt6-base
