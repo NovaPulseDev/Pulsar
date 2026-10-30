@@ -117,7 +117,7 @@ Pulsar relies on  theme folders to power its dynamic color engine, Matugen.
 
 > ⚠️ **Important Directory Rule:** All wallpaper theme folders **must** be placed inside `~/.config/colorschemes/` mapped to their corresponding theme names. 
 > 
-> I’ve included a selection of default wallpapers, filtered to their themes, right out of the box in `~/.config/colorschemes` to get you started immediately.*
+> I’ve included a selection of default wallpapers, filtered to their themes, right out of the box in `~/.config/colorschemes` to get you started immediately.
 
 ---
 
